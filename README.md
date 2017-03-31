@@ -6,6 +6,6 @@ Server: https://github.com/goncy/apollo-graphql-test-server
 
 ### Installation
 ```sh
-# Navigate and start the server
+# Clone and start the server and then
 yarn start
 ```
