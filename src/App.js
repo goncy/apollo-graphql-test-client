@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 
 import ChannelList from './components/ChannelList'
+import ChannelCreator from './components/ChannelCreator'
 
 import logo from './logo.svg'
 
@@ -16,6 +17,7 @@ class App extends Component {
         </div>
         <div className="App-intro">
           <ChannelList />
+          <ChannelCreator />
         </div>
       </div>
     )

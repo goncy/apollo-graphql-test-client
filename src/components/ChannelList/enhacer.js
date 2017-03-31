@@ -1,7 +1,7 @@
 import {gql, graphql} from 'react-apollo'
 
-const channelListQuery = gql`
-  query ChannelsListQuery {
+export const channelListQuery = gql`
+  query channelsListQuery {
     channels {
       id
       name
